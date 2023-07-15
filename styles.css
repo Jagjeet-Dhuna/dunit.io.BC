@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #276587;
+
+    --PRI-DRK-BLUE: #091921;
+    --SEC-DRK-BLUE: #276587;
+    --ALT-DRK-BLUE: #050e12;
+    --PR-WHITE: #ffffff;
+
+
+    font-family: 'JetBrains Mono', monospace;
+    color: #ffffff;
+        
+    margin: 0 auto;
+}
+
+/*------------------------------------------------------------------*/
+/*footer*/
+/*------------------------------------------------------------------*/
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card {
+
+    border-radius: 10px;
+    background-color: #091921;
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    max-width: 750px;
+    padding: 10px;    
+}
+
+.links {
+    border: 5px solid;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+.card img {
+    width: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vh;
+    padding-bottom: 0.25rem;
+}
+
+.card h1 {
+    font-weight: 500;
+    padding-bottom: 2vh;
+    color: var(--PR-WHITE);
+    text-align: center;
+}
+
+.card h2 {
+    padding: 1px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: var(--ALT-DRK-BLUE);
+}
+
+.card-p {
+    padding: 20px 30px;
+    text-align: center;
+    color: var(--PRI-DRK-BLUE);
+    font-weight: 800;
+    line-height: 1.65rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--PRI-DRK-BLUE);
+}
+
+.card-a {
+    background-color: var(--ALT-DRK-BLUE);
+    color: var(--PR-WHITE);
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-weight: 800;
+} 
+
+.card-div {
+    background-color: var(--PR-WHITE);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.card h2 svg {
+    width: 1rem;
+    margin-right: 5px; /* Adjust as needed */
+}
+
+.footer-2 {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    color: var(--SEC-DRK-BLUE);
+    text-align: center;
+    background-color: var(--ALT-DRK-BLUE);
+
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+}
+  
+.footer-2 p {
+    margin-right: 5px;
+}
+  
+.footer-2 a {
+    align-items: center;
+}
+  
+.footer-2 a svg {
+    vertical-align:middle;
+}
+
